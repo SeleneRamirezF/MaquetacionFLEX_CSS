@@ -23,4 +23,4 @@ En este proyecto encontramos un diseño para una pájina web usando las propieda
 ## Licencia
 * sin licencia, uso educativo y gratuito
 ## Recursos adicionales:
-* [Link](https://github.com/SeleneRamirezF)
+* [SeleneRamirezF](https://github.com/SeleneRamirezF)
