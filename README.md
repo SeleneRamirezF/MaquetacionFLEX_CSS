@@ -12,8 +12,8 @@ En este proyecto encontramos un diseño para una pájina web usando las propieda
 ## Desarrollo del proyecto
 * Proyecto desarroyado como ejercicio de la asigmatura de DIWEB del ciclo de DAW (segundo)
 ## Despliegue
-* [Link](https://github.com/SeleneRamirezF/MaquetacionFLEX_CSS "Pagina principal del proyecto")
-* [Link](https://github.com/SeleneRamirezF "Pagina principal del autor")
+* [Pagina principal del proyecto](https://github.com/SeleneRamirezF/MaquetacionFLEX_CSS "Pagina principal del proyecto")
+* [Pagina principal del autor](https://github.com/SeleneRamirezF "Pagina principal del autor")
 ## Construido con
 * Visual Studio Code 
 ## Versionado
