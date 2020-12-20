@@ -1,0 +1,248 @@
+/*Caracteristicas generales: margenes 0, fuente Font google, tamaño de fuente responsive*/
+
+/* BOX-SIZING para calcular directamente todas las dimensiones de las cajas */
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+/* RESETEO LIMITADO DE PROPIEDADES margen 0*/
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para las fuentes(Font google) en toda la página */
+* {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1vw;
+}
+
+/*Aspecto especifico*/
+/* Establecemos el centrado y las dimensiones de los elementos principales con una ancho máximo y mínimo (nav, container, footer)*/
+nav,
+div.container,
+footer {
+    margin: auto;
+    max-width: 95%;
+    min-width: 90%;
+    max-height: 100%;
+    min-height: 90%;
+}
+
+/* Estilos para el menú principal (nav)*/
+/*nav*/
+body {
+    display: block;
+}
+
+nav {
+    background-color: green;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+
+nav li {
+    display: inline;
+}
+
+/*link*/
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    color: yellow;
+    margin: 0.5vw;
+    padding: 0.6vw;
+    text-align: center;
+}
+
+/*mouse over link*/
+nav a:hover {
+    color: red;
+    /* font-size: 1.4vw; */
+}
+
+/* Estilos para la cabecera (header)*/
+div.container header {
+    width: 100%;
+    height: 60vw;
+}
+
+/* Fondo de la cabecera, imagen con opacidad del 30%*/
+
+div.container header {
+    background-image: url(./img/fondo.jpg);
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+
+/* Call for action para Comprar , la palabra "compra" en un link sin subrayado*/
+div.container {
+    position: relative;
+}
+
+#seccionCompra {
+    background-color: rgb(17, 131, 17);
+    width: 8vw;
+    height: 8vw;
+    border-radius: 13px;
+    position: absolute;
+    left: 70vw;
+    top: 20vw;
+
+}
+
+#seccionCompra p {
+    color: yellow;
+    text-align: center;
+}
+
+.button {
+    margin: 1vw;
+    display: inline-block;
+    text-align: center;
+    padding: 12px 16px;
+    border: 0px solid #b33232;
+    border-radius: 13px;
+    background: #b33232;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.button:hover,
+.button:focus {
+    background: #d73c3c;
+}
+
+.button:active {
+    background: #6b1e1e;
+}
+
+/* Elemento principal (main) con las 3 cards */
+main p#titulo {
+    text-align: center;
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+/* Línea separador de elementos */
+hr {
+    margin-left: 40%;
+    height: 0.2vw;
+    width: 20%;
+    background-color: red;
+}
+
+/* Estilos para la zona de las cards */
+main {
+    text-align: center;
+}
+
+div.card {
+    display: inline-block;
+    height: 200px;
+    width: 20%;
+    text-align: center;
+    margin-top: 1vw;
+}
+
+div.card img {
+    width: 50%;
+    height: 65%;
+}
+
+div.card p {
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+/* Sección con la nevera y los tres párrafos descriptivos (section)*/
+section.nevera {
+    margin: auto 16vw;
+}
+
+section.nevera img {
+    float: left;
+    width: 40%;
+    height: 30%;
+}
+
+section.nevera p {
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+/* Mostrarmos la primera letra con un borde diferente */
+section.nevera p::first-letter {
+    color: red;
+    font-size: 200%;
+    border-right: 0.1vw inset green;
+    border-bottom: 0.1vw inset green;
+    padding: 0.2vw;
+    margin: 0.2vw;
+}
+
+
+/* Sección para la galería de imágenes (section)*/
+section.gallery div {
+    text-align: center;
+}
+
+section.gallery div img {
+    /* text-align: center; */
+    display: inline-block;
+    width: 10%;
+    height: 10%;
+}
+
+/* Estilos para el pie de página (footer)*/
+footer {
+    padding: 2vw;
+    background-color: green;
+    color: yellow;
+    -webkit-column-count: 2;
+    column-count: 2;
+    margin: auto;
+    width: 60%;
+    column-width: 2vw;
+}
+
+/*link icons fontawesome*/
+footer i {
+    float: right;
+    color: rgb(248, 14, 236);
+    font-size: 3vw;
+}
+
+/* unvisited link */
+a:link {
+    color: rgb(255, 123, 0);
+}
+
+/* visited link */
+a:visited {
+    color: yellow;
+}
+
+/* mouse over link */
+a:hover {
+    color: pink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
